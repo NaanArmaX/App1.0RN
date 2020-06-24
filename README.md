@@ -1,35 +1,88 @@
-# helloApp
-App Senai
+# ReactNative
+Estudo React Native
 
-**Objetivo**
 
-Criar minha primeira aplicação com Reac Native
+**View**
 
-**Justificativa**
+é o componente fundamental onde todas as demonstrações gráficas serão exibidas.
 
-Atividade avaliativa da disciplina de Desenvolvimento de Dispositovos Móveis do curso de Desenvolvimento de Sistemas do SENAI;
+**Text**
 
-**Autores**
+trabalha com string e lida com os eventos de toque 
 
-Rafael Levi
 
-**Tecnologias**
+**Image**
 
-- JS
-- React Native
+exibe diferentes tipo de imagem 
 
-**Comandos**
+**ScrollView**
 
-- Instalar o Expo-cli:
-  npm install -g expo-cli
+seria o mesmo que uma view mas com possibilidade de rolagem.
 
-- Inicializar uma aplicação
-  expo init name_project
+**TextInput**
 
-- Instalar dependências
-  npm install
+Uma área para inserção de texto
 
-- Start na aplicação
-  npm start
+**StyleSheet**
 
-  
+Um componente semelhante ao css para desktop 
+
+**button** 
+
+um botão simples para todas as plataformas 
+
+**picker**
+
+Cria um menu suspenso
+
+**Switch**
+
+Cria um interruptor 
+
+**FlatList**
+
+Cria uma lista simples a partir de uma array 
+
+**SectionList**
+
+Cria uma lista com espaçamento igual 
+
+**ActionSheetIOS**
+
+Cria o menu de opções nativo do IOS
+
+**BackHandler**
+
+Detecta o apertar o botão voltar no Android 
+
+**DrawerLayoutAndroid**
+
+Seleciona de qual lado o menu lateral nativo do Android vai aparecer
+
+**PermissionsAndroid**
+
+Fornece acesso as permissões padrões do Android como por exemplo a câmera 
+
+**ToastAndroid**
+
+Um alerta suspenso temporario 
+
+**ActivityIndicator**
+
+Um indicador de carregamento 
+
+**Alert**
+
+Um Alerta que precisa de interação para sumir 
+
+**Animated**
+
+Adiciona animação em componentes 
+
+**RefreshControl**
+
+Usado dentro da scrollView para dar refresh na aplicação.
+
+**StatusBar**
+
+componente para controlar a barra de status do android.
